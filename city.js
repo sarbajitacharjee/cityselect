@@ -80,8 +80,8 @@ addUser(user,name,email);
 console.log(emailRecord);       
 display(name,email);
 
-name = '';                              // Not working clear input 
-email = '';
+document.getElementById('name').value='';
+document.getElementById('email').value='';
 
 }
 
